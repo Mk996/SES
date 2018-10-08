@@ -7,9 +7,30 @@
     font-style: cursive;
 }
 
-.parallax {
+.parallax1 {
     background-image: url(../images/aboutus.jpg);
     min-height: 500px;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url(../images/mission.jpg);
+    min-height: 500px;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url(../images/vision.jpg);
+    min-height: 500px;
+    opacity: 0.85;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +39,7 @@
 
 .paral {
 
-
+    opacity: 1;
     color: #000;
     font-size: 40pt;
 }
@@ -32,5 +53,30 @@
 
 .detail {
     padding: 5% 6%;
+    opacity: .85;
     text-align: justify;
+}
+
+.panel,
+.panel-heading,
+.panel-body {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-body {
+    font-size: 14pt;
+    font-family: 'Nunito', sans-serif;
+}
+
+.panel-default .panel-heading {
+    color: #F58634;
+    background-color: #ffffff;
+    font-size: 22pt;
+    font-weight: bold;
+}
+.panel-heading {
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+    /*font-family: 'lucida_handwritingitalic';*/
 }
