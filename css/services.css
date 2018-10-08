@@ -6,6 +6,7 @@
 }
 
 .services_top {
+    opacity: 1;
     position: absolute;
     top: 65%;
     left: 15%;
@@ -15,11 +16,12 @@
 
 .space {
     padding-top: 5%;
+    height: 50%;
 }
 
 .img-thumbnail {
-    width: 90%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 
 .panel,
@@ -31,6 +33,7 @@
 
 .panel-body {
     font-size: 14pt;
+    font-family: 'Nunito', sans-serif;
 }
 
 .panel-default .panel-heading {
@@ -43,6 +46,7 @@
 .parallax {
     background-image: url(../images/ses5_1.png);
     min-height: 500px;
+    opacity: 0.85;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,5 +54,6 @@
 }
 
 .panel-heading {
-    font-family: 'lucida_handwritingitalic';
+    font-family: 'Raleway', sans-serif; 
+    /*font-family: 'lucida_handwritingitalic';*/
 }
