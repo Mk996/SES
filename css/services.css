@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'lucida_handwritingitalic';
+    src: url('../fonts/lucida_handwriting_italic-webfont.woff2') format('woff2'), url('fonts/lucida_handwriting_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: cursive;
+}
+
+.services_top {
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    color: #ffffff;
+    font-size: 40pt;
+}
+
+.space {
+    padding-top: 5%;
+}
+
+.img-thumbnail {
+    width: 90%;
+    height: 60%;
+}
+
+.panel,
+.panel-heading,
+.panel-body {
+    border: none;
+    box-shadow: none;
+}
+
+.panel-body {
+    font-size: 14pt;
+}
+
+.panel-default .panel-heading {
+    color: #F58634;
+    background-color: #ffffff;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+.parallax {
+    background-image: url(../images/ses5_1.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel-heading {
+    font-family: 'lucida_handwritingitalic';
+}

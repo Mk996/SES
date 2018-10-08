@@ -1,0 +1,36 @@
+
+
+@font-face {
+    font-family: 'lucida_handwritingitalic';
+    src: url('../fonts/lucida_handwriting_italic-webfont.woff2') format('woff2'), url('fonts/lucida_handwriting_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: cursive;
+}
+
+.parallax {
+    background-image: url(../images/aboutus.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paral {
+
+
+    color: #000;
+    font-size: 40pt;
+}
+
+.head {
+    text-align: center;
+    font-family: 'lucida_handwritingitalic';
+    font-size: 28pt;
+    color: #F58634;
+}
+
+.detail {
+    padding: 5% 6%;
+    text-align: justify;
+}
