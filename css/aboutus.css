@@ -10,7 +10,7 @@
 .parallax1 {
     background-image: url(../images/aboutus.jpg);
     min-height: 500px;
-    opacity: 0.85;
+    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 .parallax2 {
     background-image: url(../images/mission.jpg);
     min-height: 500px;
-    opacity: 0.85;
+    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 .parallax3 {
     background-image: url(../images/vision.jpg);
     min-height: 500px;
-    opacity: 0.85;
+    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,10 +38,12 @@
 }
 
 .paral {
-
+    position: absolute;
+    top: 65%;
+    left: 15%;
     opacity: 1;
-    color: #000;
-    font-size: 40pt;
+    color: #ffffff;
+    font-size: 35pt;
 }
 
 .head {
@@ -79,4 +81,15 @@
     font-family: 'Raleway', sans-serif; 
     text-align: center;
     /*font-family: 'lucida_handwritingitalic';*/
+}
+
+ul{
+    list-style: none;
+}
+
+li::before{
+    font-family: 'FontAwesome';
+    content: '\f138';
+    color: #F58634;
+    margin:0% 1% 0% -2.5%;
 }
