@@ -5,6 +5,10 @@
     font-style: cursive;
 }
 
+body, html{
+    height: 100%;
+}
+
 .services_top {
     opacity: 1;
     position: absolute;
@@ -45,7 +49,7 @@
 
 .parallax {
     background-image: url(../images/ses5_1.png);
-    min-height: 500px;
+    height: 75%;
     opacity: 0.85;
     background-attachment: fixed;
     background-position: center;
