@@ -1,15 +1,21 @@
 .parallax {
     /* The image used */
-    background-image: url("/images/ses4_1.png");
+    background-image: url("../images/ses4_1.png");
 
     /* Set a specific height */
-    min-height: 500px;
+    height: 75%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+body,html{
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
 }
 .paral {
     position: absolute;
@@ -19,9 +25,24 @@
     color: #ffffff;
     font-size: 35pt;
 }
-.pageform{
-    top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
+.container{
     margin-top: 5%;
+}
+.info-head{
+    font-family: 'Raleway' , sans-serif;
+    color: orange;
+    font-weight: bold;
+}
+.info-info{
+    font-family: 'Nunito' , sans-serif;
+    
+}
+.info-icon{
+    color: orange;
+    font-size: 250%;
+    padding-right: 3%;
+}
+#map-space{
+    height: 230px;
+    width: 100%;
 }
