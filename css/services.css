@@ -58,7 +58,8 @@ body, html{
 }
 
 .panel-heading {
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
+    border-bottom: solid;
     /*font-family: 'lucida_handwritingitalic';*/
 }
 .myImg {
