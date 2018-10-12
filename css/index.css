@@ -29,3 +29,33 @@
 .item{
     background-attachment: fixed;
 }
+.info-head{
+    padding-left: 3%;
+    color: orange;
+    font-family: 'Raleway' , sans-serif;
+    
+}
+div#info ul{
+    list-style: none;
+}
+div#info ul li{
+    padding-top: 1%;
+    justify-content: flex-start
+}
+div#info ul li::before{
+    font-family: 'FontAwesome';
+    content: '\f138';
+    color: #F58634;
+    margin:0% 1% 0% -2.5%;
+    
+}
+div#info ul li ul li::before{
+    font-family: 'FontAwesome';
+    content: '\f101';
+    color: #F58634;
+    margin:0% 1% 0% -1.5%;
+    
+}
+body{
+    font-size: 14pt;
+}

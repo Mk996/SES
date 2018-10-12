@@ -91,7 +91,7 @@ ul{
     list-style: none;
 }
 
-li::before{
+div.panel-body ul li::before{
     font-family: 'FontAwesome';
     content: '\f138';
     color: #F58634;
