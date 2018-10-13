@@ -73,10 +73,17 @@
     color: dimgray;
     padding:30px;
     min-width: 320px;
-    transform: skew(-17deg);
-    font-size: 25px; 
+    transform: skew(-15deg);
+    font-size: 27px; 
 
 }
 #logotext:hover{
     color: orange;
+}
+.active{
+    background-color: black;
+}
+#ss{
+    margin-left: 178px;
+    font-size: 7px;
 }
