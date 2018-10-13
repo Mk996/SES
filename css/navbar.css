@@ -22,6 +22,7 @@
     font-family: 'lucida_handwritingitalic';
     font-size: 140%;
     font-style: italic;
+    font-weight: 400;
 }
 .atlast .nav >li >a {
     padding-top: 30px;
