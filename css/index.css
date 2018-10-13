@@ -4,11 +4,11 @@
     background-color: darkslategrey;
     background-size: cover;
     background-position: center;
-    min-height: 650px;
+    min-height: 550px;
 }
-@media (max-height: 800px){
+@media (min-height: 750px){
 	.carousel-bg .carousel-inner .item {
-     min-height: 550px;   
+     min-height: 650px;   
  	}
 }
 
