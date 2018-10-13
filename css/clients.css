@@ -91,6 +91,9 @@ h2{
 }
 .slick-slide img
 {
+    padding-left: 20%;
+    height: 70%;
+    width: 70%;
     display: block;
 }
 .slick-slide.slick-loading img

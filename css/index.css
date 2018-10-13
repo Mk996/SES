@@ -4,8 +4,13 @@
     background-color: darkslategrey;
     background-size: cover;
     background-position: center;
-    min-height: 360px;
+    min-height: 650px;
 }
+
+@media (max-height: 800){
+    min-height: 550px;
+}
+
 .slide{ 
     margin-top: 80px;
 }
