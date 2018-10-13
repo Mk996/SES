@@ -3,6 +3,9 @@
     width: 100%;
     z-index: 9999999;
 }
+.navbar{
+    background-color: white;
+}
 .nav li:hover{
     background-color: dimgray;
 }
@@ -11,18 +14,22 @@
 }
 .navbar-brand>img {
     height: 100%;
-    padding: 15px;
+    padding: 0px;
     width: auto;
 }
 .atlast .navbar-brand {
     height: 80px;
     font-family: 'lucida_handwritingitalic';
     font-size: 140%;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .atlast .nav >li >a {
     padding-top: 30px;
     padding-bottom: 30px;
+    color: orange;
+    font-size: 18px;
 }
 .atlast .navbar-toggle {
     padding: 10px;
@@ -31,6 +38,10 @@
 
 .navbar-toggle {
     z-index: 1;
+    background-color: black;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: white;
 }
 .navbar-alignit .navbar-header {
     -webkit-transform-style: preserve-3d;
@@ -55,6 +66,13 @@
     src: url('../fonts/lucida_handwriting_italic-webfont.woff2') format('woff2'),
         url('../fonts/lucida_handwriting_italic-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: cursive;
-
+    font-style: italic;
+}
+#logotext{
+    color: dimgray;
+    padding:30px;
+    min-width: 320px;
+}
+#logotext:hover{
+    color: orange;
 }
