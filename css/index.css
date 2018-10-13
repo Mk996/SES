@@ -4,8 +4,14 @@
     background-color: darkslategrey;
     background-size: cover;
     background-position: center;
-    min-height: 550px;
+    min-height: 650px;
 }
+@media (max-height: 800px){
+	.carousel-bg .carousel-inner .item {
+     min-height: 550px;   
+ 	}
+}
+
 .slide{ 
     margin-top: 80px;
 }
