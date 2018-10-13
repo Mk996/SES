@@ -1,4 +1,4 @@
-<style>
+
 .footer {
     width: 100%;
     height: auto;
@@ -6,9 +6,10 @@
 }
 .footer .contain{
     padding: 2%;
+    color: silver;
 }
 .footer .col {
-    width: 190px;
+    width: 220px;
     height: auto;
     float: left;
     box-sizing: border-box;
@@ -34,7 +35,7 @@
     padding: 0;
 }
 .footer .col ul li {
-    color: #999999;
+    color: white;
     font-size: 14px;
     font-family: inherit;
     font-weight: bold;
@@ -100,4 +101,3 @@
         width: 100%;
     }
 }
-</style>   

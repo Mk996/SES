@@ -3,7 +3,9 @@ h2{
     padding: 20px;
 }
 /* Slider */
-
+.clients{
+    padding-bottom: 20px;
+}
 .slick-slide {
     margin: 0px ;
 }
