@@ -56,6 +56,6 @@ div#info ul li ul li::before{
     margin:0% 1% 0% -1.5%;
     
 }
-body{
+#info{
     font-size: 14pt;
 }

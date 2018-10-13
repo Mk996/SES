@@ -1,0 +1,60 @@
+.atlast{
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+}
+.nav li:hover{
+    background-color: dimgray;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
+}
+.atlast .navbar-brand {
+    height: 80px;
+    font-family: 'lucida_handwritingitalic';
+    font-size: 140%;
+}
+
+.atlast .nav >li >a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.atlast .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.navbar-toggle {
+    z-index: 1;
+}
+.navbar-alignit .navbar-header {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    height: 50px;
+}
+.navbar-alignit .navbar-brand {
+    top: 50%;
+    display: block;
+    position: relative;
+    height: auto;
+    transform: translate(0,-50%);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.navbar-nav>li>.dropdown-menu {
+    z-index: 9999;
+}
+@font-face {
+    font-family: 'lucida_handwritingitalic';
+    src: url('../fonts/lucida_handwriting_italic-webfont.woff2') format('woff2'),
+        url('../fonts/lucida_handwriting_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: cursive;
+
+}
