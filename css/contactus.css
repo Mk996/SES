@@ -42,7 +42,9 @@ body{
     font-size: 250%;
     padding-right: 3%;
 }
-#map-space{
-    height: 230px;
-    width: 100%;
+.map-space{
+   padding-top: 4%;
+}
+#form-block{
+    padding-right: 2%;
 }
