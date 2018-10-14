@@ -30,10 +30,11 @@
     color: orange;
     font-size: 19px;
     font-family: Nunito;
+    font-weight: 700;
 }
 .atlast .nav >li >a.active{
     color: black;
-    font-weight: bold;
+    font-weight: 900;
 }
 .atlast .navbar-toggle {
     padding: 10px;
@@ -69,7 +70,6 @@
     font-family: 'lucida_handwritingitalic';
     src: url('../fonts/lucida_handwriting_italic-webfont.woff2') format('woff2'),
         url('../fonts/lucida_handwriting_italic-webfont.woff') format('woff');
-    font-weight: bold ;
     font-style: italic;
 }
 #logotext{
@@ -78,6 +78,7 @@
     min-width: 400px;
     transform: skew(-15deg);
     font-size: 27px; 
+    font-weight: bold;
 
 }
 #logotext:hover{

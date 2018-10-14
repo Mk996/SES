@@ -4,7 +4,10 @@ h2{
 }
 /* Slider */
 .clients{
-    padding-bottom: 20px;
+    padding: 30px;
+}
+.customer-logos{
+    padding: 30px;
 }
 .slick-slide {
     margin: 0px ;
