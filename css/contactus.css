@@ -1,47 +1,47 @@
 .parallax {
-    /* The image used */
-    background-image: url("../images/contactus.jpg");
+  /* The image used */
+  background-image: url("../images/contactus.jpg");
 
-    /* Set a specific height */
-    height: 75%;
+  /* Set a specific height */
+  height: 75%;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-body,html{
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 .paral {
-    position: absolute;
-    top: 65%;
-    left: 15%;
-    opacity: 1;
-    color: #ffffff;
-    font-size: 35pt;
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 35pt;
 }
-.info-head{
-    font-family: 'Raleway' , sans-serif;
-    color: orange;
-    font-weight: bold;
+.info-head {
+  font-family: "Raleway", sans-serif;
+  color: orange;
+  font-weight: bold;
 }
-.info-info{
-    font-family: 'Nunito' , sans-serif;
-    
+.info-info {
+  font-family: "Nunito", sans-serif;
 }
-.info-icon{
-    color: orange;
-    font-size: 250%;
-    padding-right: 3%;
+.info-icon {
+  color: orange;
+  font-size: 250%;
+  padding-right: 3%;
 }
-.map-space{
-   padding-top: 4%;
+.map-space {
+  padding-top: 4%;
 }
-#form-block{
-    padding-right: 2%;
+#form-block {
+  padding-right: 2%;
 }
