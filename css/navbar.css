@@ -1,126 +1,126 @@
-.atlast{
-    position: fixed;
-    width: 100%;
-    z-index: 9999999;
+.atlast {
+  position: fixed;
+  width: 100%;
+  z-index: 9999999;
 }
-.navbar{
-    background-color: white;
+.navbar {
+  background-color: white;
 }
-.nav li:hover{
-    background-color: dimgray;
+.nav li:hover {
+  background-color: dimgray;
 }
 .navbar-brand {
-    padding: 0px;
+  padding: 0px;
 }
-.navbar-brand>img {
-    height: 100%;
-    padding: 0px;
-    width: auto;
+.navbar-brand > img {
+  height: 100%;
+  padding: 0px;
+  width: auto;
 }
 .atlast .navbar-brand {
-    height: 80px;
-    font-family: 'lucida_handwritingitalic';
-    font-size: 140%;
-    font-style: italic;
-    font-weight: 400;
+  height: 80px;
+  font-family: "lucida_handwritingitalic";
+  font-size: 140%;
+  font-style: italic;
+  font-weight: 400;
 }
-.atlast .nav >li >a {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: orange;
-    font-size: 19px;
-    font-family: Nunito;
-    font-weight: 700;
+.atlast .nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: orange;
+  font-size: 19px;
+  font-family: Nunito;
+  font-weight: 700;
 }
-.atlast .nav >li >a.active{
-    color: black;
-    font-weight: 900;
+.atlast .nav > li > a.active {
+  color: black;
+  font-weight: 900;
 }
 .atlast .navbar-toggle {
-    padding: 10px;
-    margin: 25px 15px 25px 0;
+  padding: 10px;
+  margin: 25px 15px 25px 0;
 }
 
 .navbar-toggle {
-    z-index: 1;
-    background-color: black;
+  z-index: 1;
+  background-color: black;
 }
 .navbar .navbar-toggle .icon-bar {
-    background-color: white;
+  background-color: white;
 }
 .navbar-alignit .navbar-header {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    height: 50px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
 }
 .navbar-alignit .navbar-brand {
-    top: 50%;
-    display: block;
-    position: relative;
-    height: auto;
-    transform: translate(0,-50%);
-    margin-right: 15px;
-    margin-left: 15px;
+  top: 50%;
+  display: block;
+  position: relative;
+  height: auto;
+  transform: translate(0, -50%);
+  margin-right: 15px;
+  margin-left: 15px;
 }
-.navbar-nav>li>.dropdown-menu {
-    z-index: 9999;
+.navbar-nav > li > .dropdown-menu {
+  z-index: 9999;
 }
 @font-face {
-    font-family: 'lucida_handwritingitalic';
-    src: url('../fonts/lucida_handwriting_italic-webfont.woff2') format('woff2'),
-        url('../fonts/lucida_handwriting_italic-webfont.woff') format('woff');
-    font-style: italic;
+  font-family: "lucida_handwritingitalic";
+  src: url("../fonts/lucida_handwriting_italic-webfont.woff2") format("woff2"),
+    url("../fonts/lucida_handwriting_italic-webfont.woff") format("woff");
+  font-style: italic;
 }
-#logotext{
-    color: dimgray;
-    padding:30px;
-    min-width: 400px;
-    transform: skew(-15deg);
-    font-size: 27px; 
-    font-weight: bold;
-
+#logotext {
+  color: dimgray;
+  padding: 30px;
+  min-width: 400px;
+  transform: skew(-15deg);
+  font-size: 27px;
+  font-weight: bold;
 }
-#logotext:hover{
-    color: orange;
+#logotext:hover {
+  color: orange;
 }
-#ss{
-    margin-left: 178px;
-    font-size: 7px;
+#ss {
+  margin-left: 178px;
+  font-size: 7px;
 }
 @media (max-width: 1000px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,.navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in{
-        display:block !important;
-    }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
 }
