@@ -72,20 +72,10 @@
     url("../fonts/lucida_handwriting_italic-webfont.woff") format("woff");
   font-style: italic;
 }
-#logotext {
-  color: dimgray;
-  padding: 30px;
-  min-width: 400px;
-  transform: skew(-15deg);
-  font-size: 27px;
-  font-weight: bold;
-}
-#logotext:hover {
-  color: orange;
-}
-#ss {
-  margin-left: 178px;
-  font-size: 7px;
+#logoimage img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 @media (max-width: 1000px) {
   .navbar-header {
