@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://sonienergysolution.com/</loc>
+  <lastmod>2018-10-29T16:54:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://sonienergysolution.com/index.html</loc>
+  <lastmod>2018-10-29T16:54:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sonienergysolution.com/aboutus.html</loc>
+  <lastmod>2018-10-29T16:55:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sonienergysolution.com/services.html</loc>
+  <lastmod>2018-10-29T17:03:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sonienergysolution.com/contactus.html</loc>
+  <lastmod>2018-10-29T16:55:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

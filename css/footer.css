@@ -51,7 +51,7 @@
 }
 .social ul li {
   display: inline-block;
-  padding-right: 5px !important;
+  padding-right: 5px ;
 }
 
 .footer .col ul li:hover {
@@ -109,4 +109,7 @@
   .footer .col {
     width: 100%;
   }
+}
+#sitemap{
+    font-weight: 100;
 }
