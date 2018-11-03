@@ -73,6 +73,8 @@ body, html{
 .panel-body {
     font-size: 14pt;
     font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    cursor: context-menu;
     
 }
 

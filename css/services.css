@@ -38,7 +38,8 @@ body, html{
 .panel-body {
     font-size: 14pt;
     font-family: 'Nunito', sans-serif;
-    justify-content: center;
+    text-align: justify;
+    cursor: context-menu;
 }
 
 .panel-default .panel-heading {
@@ -48,21 +49,23 @@ body, html{
     font-weight: bold;
 }
 
+.panel-heading {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: solid;
+    /*font-family: 'lucida_handwritingitalic';*/
+}
+
 .parallax {
     background-image: url(../images/services.jpg);
     height: 75%;
-    opacity: 0.85;
+    opacity: 0.95;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.panel-heading {
-    font-family: 'Raleway', sans-serif;
-    border-bottom: solid;
-    /*font-family: 'lucida_handwritingitalic';*/
-}
+
 .myImg {
     border-radius: 5px;
     cursor: pointer;
