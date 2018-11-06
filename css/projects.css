@@ -62,9 +62,7 @@ body, html{
 ul{
     list-style: none;
 }
-li{
-    padding-top: .75%;
-}
+
 
 div.panel-body ul li::before{
     font-family: 'FontAwesome';
@@ -85,6 +83,7 @@ div.panel-body ul li{
     transition: opacity 0.05s;
     transition: font-size 0.05s;
     transition-timing-function: linear;
+    padding-top: .75%;
 }
 
 .fa{
